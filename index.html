@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cloaker</title>
+    
     <style>
       body {
         background-color: #2f3242;
       }
-
       svg {
         position: absolute;
         top: 50%;
@@ -16,7 +15,6 @@
         margin-top: -250px;
         margin-left: -400px;
       }
-
       .message-box {
         height: 200px;
         width: 380px;
@@ -29,17 +27,14 @@
         font-family: Roboto;
         font-weight: 300;
       }
-
       .message-box h1 {
         font-size: 60px;
         line-height: 46px;
         margin-bottom: 40px;
       }
-
       .buttons-con .action-link-wrap {
         margin-top: 40px;
       }
-
       .buttons-con .action-link-wrap a {
         background: #68c950;
         padding: 8px 25px;
@@ -52,7 +47,6 @@
         text-decoration: none;
         margin-right: 10px;
       }
-
       .buttons-con .action-link-wrap a:hover {
         background: #5a5c6c;
         color: #fff;
@@ -66,19 +60,15 @@
       #Polygon-5 {
         animation: float 1s infinite ease-in-out alternate;
       }
-
       #Polygon-2 {
         animation-delay: 0.2s;
       }
-
       #Polygon-3 {
         animation-delay: 0.4s;
       }
-
       #Polygon-4 {
         animation-delay: 0.6s;
       }
-
       #Polygon-5 {
         animation-delay: 0.8s;
       }
@@ -88,7 +78,6 @@
           transform: translateY(20px);
         }
       }
-
       @media (max-width: 450px) {
         svg {
           position: absolute;
@@ -97,7 +86,6 @@
           margin-top: -250px;
           margin-left: -190px;
         }
-
         .message-box {
           top: 50%;
           left: 50%;
@@ -108,7 +96,6 @@
       }
     </style>
   </head>
-
   <body>
     <svg
       width="380px"
@@ -165,27 +152,18 @@
       </g>
     </svg>
     <div class="message-box">
-      <h1>Opgames</h1>
-
+      <h1>no no bad</h1>
+      
       <div class="buttons-con">
         <div class="action-link-wrap">
           <a href="#" class="link-button link-back-button" onclick="openGame()"
-            >Open cloaked page</a
-          >
-        </div>
-      </div>
-      <div class="buttons-con">
-        <div class="action-link-wrap">
-          <a href="#" class="link-button link-back-button" onclick="newtab()"
-            >Open cloaked page</a
+            >Open game</a
           >
         </div>
       </div>
     </div>
+
     <script>
-      function newtab() {
-        window.location = "https://coursera.cf/";
-      }
       function openGame() {
         var win = window.open();
         if (win) {
@@ -193,7 +171,8 @@
           iframe.style.width = "100%";
           iframe.style.height = "100%";
           iframe.style.border = "none";
-          iframe.src = "https://coursera.cf/";
+          iframe.src =
+            "https://piped.kavin.rocks/";
           win.document.body.appendChild(iframe);
         } else {
           alert("link will not open, see if its your ad blocker or not");
